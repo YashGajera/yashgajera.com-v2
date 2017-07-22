@@ -12,7 +12,7 @@
   font-size: 20px;
   color: white;
   margin-left: 170px;
-  padding-top:15px;
+  padding-top:13px;
   text-transform: uppercase;
   letter-spacing: 1px;
   float: left;
@@ -20,14 +20,22 @@
 
 .nav_bar_menu {
   float: right;
-  color: white;
   font-family: sans-serif;
-  padding-top:19px;
+  padding-top:15px;
   margin-right: 100px;
   letter-spacing: 0.7px;
 }
 
 .nav_bar_menu a {
   margin-right: 20px;
+  text-decoration:none;
+  color: #d4d1d1;
 }
 
+.active {
+  color: white!important;
+}
+
+.nav_bar_menu a:hover{
+  color: white !important;
+}

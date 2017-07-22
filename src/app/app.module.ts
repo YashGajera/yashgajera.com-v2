@@ -12,13 +12,21 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { InteractWithMeComponent } from './components/interact-with-me/interact-with-me.component';
+import { MyStoryComponent } from './components/my-story/my-story.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ErrorComponent,
-    InteractWithMeComponent
+    InteractWithMeComponent,
+    MyStoryComponent,
+    SkillsComponent,
+    PortfolioComponent,
+    ResumeComponent
   ],
   imports: [
       BrowserModule,
