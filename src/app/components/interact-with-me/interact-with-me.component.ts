@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+﻿import { Component, OnInit } from '@angular/core';
+declare var particlesJS:any;
 @Component({
   selector: 'app-interact-with-me',
   templateUrl: './interact-with-me.component.html',
@@ -10,6 +10,8 @@ export class InteractWithMeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+      particlesJS.load('particles-js', '../assets/particlesjs-config.json',null);
   }
+
 
 }
