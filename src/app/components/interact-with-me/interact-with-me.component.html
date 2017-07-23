@@ -1,7 +1,53 @@
-﻿<!--<form  #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
-  <div>
-    <label><span class="required_a">* </span>Name</label><br>
-    <input type="text" name="name" id="name" class="required_y" placeholder="What people call you" required="" data-fieldid="0">
+﻿<div id="particles-js"></div>
+
+<div fxLayout='row' class="interact_text">
+  <div fxFlex="100">
+    <h2>Interact With Me</h2>
+    <p>I like to create things with fun, open-minded people, Feel free to say Hello..!</p>
   </div>
-</form>-->
-<div id="particles-js"></div>
+</div>
+
+<div fxLayout='row' fxLayout.xs='column' fxLayout.sm='column' class="content">
+  <div fxFlex.xs="100" fxFlex="33" class="interact_form">
+    <form>
+      <label>Name<span class="required_a">*</span></label><br />
+      <input class="required_y" type="text" name="full_name" placeholder="What people call you?" required /><br />
+      <label>Email<span class="required_a">*</span></label><br />
+      <input class="required_y" type="text" name="email" placeholder="Your Email" required /><br />
+      <label>Message<span class="required_a">*</span></label><br />
+      <textarea class="required_y message_box" placeholder="Tell me something" name="message" rows="5" cols="30"></textarea><br />
+      <input class="submit_y" type="submit" value="Send" />
+    </form>
+  </div>
+  <div fxFlex="33" fxFlex.xs="100" class="email_text">
+      <h4>Or just Email me at<br /><a href="mailto:y.gajera@hotmail.com">y.gajera@hotmail.com</a></h4>
+  </div>
+  <div fxFlex="33" fxFlex.xs="100" class="social_block">
+    <div style="display:inline-block;">
+    <div class="social_icon">
+      <a target="_blank" href="https://www.linkedin.com/in/yash-gajera-09663a19">
+        <img src="../assets/social/linkedin.png">
+        </a>&nbsp;&nbsp;&nbsp;
+    <a target="_blank" href="https://www.linkedin.com/in/yash-gajera-09663a19">Connect me on LinkedIn</a>
+    </div>
+
+    <div class="social_icon">
+      <a target="_blank" href="https://www.twitter.com/yashgajera">
+        <img src="../assets/social/twitter.png">
+      </a>&nbsp;&nbsp;&nbsp;
+      <a target="_blank" href="https://www.twitter.com/yashgajera">Follow me on Twitter</a>
+    </div>
+
+      <div class="social_icon">
+        <a target="_blank" href="http://www.facebook.com/yashgajera">
+          <img src="../assets/social/facebook.png">
+        </a>&nbsp;&nbsp;&nbsp;
+        <a target="_blank" href="http://www.facebook.com/yashgajera">Find me on Facebook</a>
+      </div>
+
+    <div class="social_icon"><a class="social_link" href="skype:y.gajera@hotmail.com?call"><img src="../assets/social/skype.png"></a>&nbsp;&nbsp;&nbsp;<a class="social_link" href="skype:y.gajera@hotmail.com?call">Call me on Skype</a></div>
+
+  </div>
+
+    </div>
+</div>

@@ -39,3 +39,15 @@
 .nav_bar_menu a:hover{
   color: white !important;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  padding-bottom: 10px;
+  background-color: rgba(34, 34, 34, 0.56);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
