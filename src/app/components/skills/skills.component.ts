@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
+import { MediaChange, ObservableMedia } from "@angular/flex-layout";
+declare var particlesJS: any;
 
 @Component({
   selector: 'app-skills',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor() { }
+    constructor(
+        public media: ObservableMedia
+    ) { }
 
-  ngOnInit() {
+    ngOnInit() {
+        particlesJS.load('particles-js', '../assets/particlesjs-config-skills.json', null);
   }
 
 }
