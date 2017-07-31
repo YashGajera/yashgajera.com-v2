@@ -27,13 +27,9 @@ matrix:
 install:
   - npm install
 
-before_script:
-  - mkdir -p $LOGS_DIR
-
 script:
-  - npm build -prod
+  - npm run-script build -prod
 
 cache:
   directories:
     - node_modules
-    - $HOME/.pub-cache
