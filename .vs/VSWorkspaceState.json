@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components\\interact-with-me",
+    "\\src\\app\\components\\skills",
+    "\\src\\app\\modules",
+    "\\src\\app\\modules\\routing",
+    "\\src\\assets"
   ],
+  "SelectedNode": "\\src\\app\\app.module.ts",
   "PreviewInSolutionExplorer": false
 }
