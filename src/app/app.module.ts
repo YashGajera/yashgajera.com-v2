@@ -17,6 +17,7 @@ import { MyStoryComponent } from './components/my-story/my-story.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ResumeComponent } from './components/resume/resume.component';
+import { ProjectModalComponent } from './components/project-modal/project-modal.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { ResumeComponent } from './components/resume/resume.component';
     SkillsComponent,
     PortfolioComponent,
     ResumeComponent,
+    ProjectModalComponent,
   
   ],
   imports: [
