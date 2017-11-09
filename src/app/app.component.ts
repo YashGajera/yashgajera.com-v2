@@ -1,4 +1,4 @@
-﻿import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, Renderer } from '@angular/core';
 
 @Component({
   selector: 'body',
@@ -8,4 +8,11 @@
 export class AppComponent {
   @HostBinding('class') public cssClass = 'modal-inactive';
   title = 'app';
+
+  constructor(
+    private renderer: Renderer
+  ) { }
+  
+  mobile_menu_active = false;
+
 }
