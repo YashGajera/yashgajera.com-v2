@@ -3,12 +3,11 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\components\\interact-with-me",
-    "\\src\\app\\components\\skills",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\about-me",
     "\\src\\app\\modules",
-    "\\src\\app\\modules\\routing",
-    "\\src\\assets"
+    "\\src\\app\\modules\\routing"
   ],
-  "SelectedNode": "\\src\\app\\app.module.ts",
+  "SelectedNode": "\\src\\app\\components\\about-me\\about-me.component.css",
   "PreviewInSolutionExplorer": false
 }

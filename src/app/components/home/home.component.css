@@ -1,5 +1,5 @@
 .website_cover {
-  background: url("/assets/img/home_3.jpg") no-repeat;
+  background: url("/assets/img/home_2.jpg") no-repeat;
   background-size: cover;
   filter: brightness(1.2);
   display: inline-block;
@@ -12,17 +12,25 @@
 
 .tag_line{
   position: absolute;
-  bottom:300px; 
+  bottom:215px; 
   text-align:center;
   color: white;
   left: 45px;
   letter-spacing: 1.5px;
 }
 
-.social_icon img{
-  width:48px;
-  height:48px;
-  opacity:0.6;
+@media screen and (max-width: 767px) {
+  .tag_line {
+    left:0px;
+  }
+}
+
+.social_icon img {
+  width: 48px;
+  height: 48px;
+  border: 0px;
+  border-radius: 50%;
+  background-color: #ffffffcc;
 }
 
 .social_icon a {

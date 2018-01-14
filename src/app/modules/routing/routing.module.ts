@@ -1,8 +1,8 @@
-﻿import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../../components/home/home.component';
-import { MyStoryComponent } from '../../components/my-story/my-story.component';
+import { AboutMeComponent } from '../../components/about-me/about-me.component';
 import { SkillsComponent } from '../../components/skills/skills.component';
 import { PortfolioComponent } from '../../components/portfolio/portfolio.component';
 import { ResumeComponent } from '../../components/resume/resume.component';
@@ -12,7 +12,7 @@ import { InteractWithMeComponent } from '../../components/interact-with-me/inter
 
 const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
-    { path: 'my-story', component: MyStoryComponent },
+    { path: 'about-me', component: AboutMeComponent },
     { path: 'skills', component: SkillsComponent },
     { path: 'portfolio', component: PortfolioComponent },
     { path: 'resume', component: ResumeComponent },

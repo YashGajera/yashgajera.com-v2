@@ -1,0 +1,14 @@
+.about_me_photo {
+  width: 410px;
+  border-radius: 50%;
+  margin: auto;
+  align-items:center;
+  text-align:center;
+}
+
+.about_me_div {
+  margin-top:10%;
+  line-height:42px;
+  vertical-align:middle;
+  text-align:center;
+}
